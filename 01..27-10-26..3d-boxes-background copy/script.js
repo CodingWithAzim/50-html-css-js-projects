@@ -3,5 +3,5 @@ const mainBox = document.querySelector(".main");
 
 btn.addEventListener("click" , () => {
 
-    mainBox
+    mainBox.classList.toggle()
 })
