@@ -63,7 +63,7 @@ body {
   gap: 4vw;
 }
 
-.magic.jokonAmiThakbo .box{
+.main.jokonAmiThakbo .box{
   transform: rotateZ(360deg);
 }
 
