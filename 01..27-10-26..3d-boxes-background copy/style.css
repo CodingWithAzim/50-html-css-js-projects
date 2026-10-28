@@ -31,7 +31,7 @@ body {
   position: fixed;
   cursor: pointer;
   box-shadow: 0 4px 3px blue;
-  font-family: "Major Mono Display", monospace;
+  @import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
 }
 
 .container .magic:active {
