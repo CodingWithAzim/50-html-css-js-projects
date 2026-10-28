@@ -77,7 +77,7 @@ body {
 
   width: 12px;
   height: 100%;
-  background-color: rgba(255, 153, 0, 0.664);
+  background-color: rgba(0, 255, 55, 0.664);
   transform: skewY(45deg);
 }
 .box::before {
