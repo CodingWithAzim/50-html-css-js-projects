@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-body{
-    background-color: rgba(54, 29, 95, 0.301);
-    background:linear-gradient(to right,red,blue,green)
+body {
+  background-color: rgba(54, 29, 95, 0.301);
+  background: linear-gradient(to right, red, blue, green);
 }
