@@ -114,7 +114,10 @@ body {
   transform-origin: left top;
   transform: skewY(45deg);
 } */
-
+.box {
+  transform: rotate(30deg);
+  transform-origin: right bottom;   /* ডান-নিচের কোণা স্থির */
+}
 .box::after {
   content: "";
   position: absolute;
