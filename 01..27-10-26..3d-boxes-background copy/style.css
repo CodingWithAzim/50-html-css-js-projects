@@ -147,5 +147,5 @@ body {
   height: var(--d);
   background-color: rgb(255, 200, 110);
   transform-origin: left bottom;
-  transform: skewX(-45deg);   /* ✅ minus = goes RIGHT */
+  transform: skewX(-45deg); /* ✅ minus = goes RIGHT */
 }
