@@ -36,7 +36,7 @@ body {
   position: absolute;
   top: -97px;
   left: 50%;
-  transform: translate(-50%, 0);
+  /* transform: translate(-50%, 0); */
 }
 
 .magic:active {
