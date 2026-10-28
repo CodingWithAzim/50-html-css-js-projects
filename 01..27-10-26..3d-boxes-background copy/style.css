@@ -94,7 +94,7 @@ body {
 } */
 
 .box {
-  --d: 2vw; /* ✅ গভীরতা, শুধু এখানে বদলাও */
+  --d: 2vw; 
 
   background-color: rgb(255, 153, 0);
   width: 10vw;
