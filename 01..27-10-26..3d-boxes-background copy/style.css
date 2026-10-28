@@ -104,7 +104,7 @@ body {
 }
 
 
-.box::after {
+/* .box::after {
   content: "";
   position: absolute;
   top: 0;
@@ -114,7 +114,7 @@ body {
   background-color: rgb(200, 110, 0);
   transform-origin: left top;
   transform: skewY(45deg);
-}
+} */
 .box::after {
   content: "";
   position: absolute;
