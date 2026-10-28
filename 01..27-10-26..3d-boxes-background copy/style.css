@@ -39,5 +39,6 @@ body {
   transform: translateY(4px);
 }
 
-.magic:outline {
+.magic.magic:focus{
+    outline: 2;
 }
