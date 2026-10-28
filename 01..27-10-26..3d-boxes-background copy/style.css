@@ -96,11 +96,3 @@ body {
   left: 0;
   top: 100%;
 }
-
-.box {
-  --d: 6vw;
-}
-
-.box:first-child::after {
-  transform-origin: center;
-}
