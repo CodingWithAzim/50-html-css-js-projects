@@ -40,7 +40,7 @@ body {
 }
 
 .magic.jokonAmiThakbo{
-transform: tran;
+transform: rotateZ();
 }
 
 .magic:active {
