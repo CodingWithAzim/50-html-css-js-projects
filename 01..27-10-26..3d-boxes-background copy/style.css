@@ -84,7 +84,7 @@ body {
   content: "";
   position: absolute;
 
- left:8px;
+ left:-8px;
  bottom:-15px;
 
   width: 12px;
