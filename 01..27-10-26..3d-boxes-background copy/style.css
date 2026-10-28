@@ -43,7 +43,7 @@ body {
   outline: none;
 }
 
-.main{
-    width: min(90vmin , 500px);
-    background-color: red;
+.main {
+  width: min(500px);
+  background-color: red;
 }
