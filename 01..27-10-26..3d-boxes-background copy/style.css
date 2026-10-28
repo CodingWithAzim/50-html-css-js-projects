@@ -33,5 +33,5 @@ body {
 
 .container .magic:active {
   box-shadow: none;
-  transform: trany
+  transform: translateY(4px)
 };
