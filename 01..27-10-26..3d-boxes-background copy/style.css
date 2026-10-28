@@ -63,7 +63,7 @@ body {
 
 .box {
   background-color: rgb(255, 153, 0);
-  background-color: rgba(255, 153, 0, 0.664);;
+  background-color: rgb(255, 153, 0);
   width: 10vw;
   height: 10vw;
   position: relative;
