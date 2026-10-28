@@ -1,6 +1,6 @@
-# 🚀 01..50projects25days
+# 🚀 01..50projects50days
 
-My **50 projects in 25 days** challenge: building HTML, CSS & JavaScript projects every day to level up my frontend skills 💻🔥
+My **50 projects in 50 days** challenge: building HTML, CSS & JavaScript projects every day to level up my frontend skills 💻🔥
 
 ## 🎯 Goal
 
