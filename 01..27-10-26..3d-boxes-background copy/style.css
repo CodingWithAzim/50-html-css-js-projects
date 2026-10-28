@@ -80,7 +80,7 @@ body {
   height: 100%;
   background-color: rgb(255, 200, 110);
   transform-origin: left top;
-  transform: skewY(-45deg); /* ✅ minus = goes UP */
+  transform: skewY(45deg); /* ✅ minus = goes UP */
 }
 
 .box::before {
@@ -93,5 +93,5 @@ body {
   background-color: rgb(255, 200, 110);
   background-color: rgb(170, 90, 0);
   transform-origin: left bottom;
-  transform: skewX(-45deg); /* ✅ minus = goes RIGHT */
+  transform: skewX(45deg); /* ✅ minus = goes RIGHT */
 }
