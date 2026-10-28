@@ -51,7 +51,7 @@ body {
 .main {
   width: 95%;
   /* height: 100vh; */
-  background-color: red;
+  background-color: rgb(92, 155, 90);
   position: relative;
 
   display: flex;
