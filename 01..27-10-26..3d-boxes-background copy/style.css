@@ -41,7 +41,7 @@ body {
 
 .magic:active {
   box-shadow: none;
-  transform: translateY(4px);
+  transform: translate(4px);
 }
 
 .magic:focus {
