@@ -116,7 +116,7 @@ body {
 } */
 .box {
   transform: rotate(30deg);
-  /* transform-origin: right bottom; */
+  transform-origin: right bottom;
 }
 .box::after {
   content: "";
