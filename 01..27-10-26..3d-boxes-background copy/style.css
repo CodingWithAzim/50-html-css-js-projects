@@ -80,3 +80,15 @@ body {
   background-color: rgba(255, 153, 0, 0.664);
   transform: skewY(45deg);
 }
+.box::after {
+  content: "";
+  position: absolute;
+
+  top: 6px;
+  right: -12px;
+
+  width: 12px;
+  height: 100%;
+  background-color: rgba(255, 153, 0, 0.664);
+  transform: skewY(45deg);
+}
