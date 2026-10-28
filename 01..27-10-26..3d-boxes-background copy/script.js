@@ -1,1 +1,1 @@
- const btn = documet
+ const btn = docuum
