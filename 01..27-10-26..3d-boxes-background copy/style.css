@@ -33,7 +33,7 @@ body {
   box-shadow:0 4px  3px  blue;
      font-family: "Cascadia Code", sans-serif;
 
-.container .magic:active {
-  box-shadow: none;
+.container .magic:active{
+      box-shadow: none;
   transform: translateY(4px);
-}
+} 
