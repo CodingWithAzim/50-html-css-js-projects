@@ -34,7 +34,7 @@ body {
   @import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
 }
 
-.container .magic:active {
+.magic:active {
   box-shadow: none;
   transform: translateY(4px);
 }
