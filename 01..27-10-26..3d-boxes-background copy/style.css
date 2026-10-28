@@ -39,8 +39,8 @@ body {
   /* transform: translate(-50%, 0); */
 }
 
-.magic.jokonAmiThakbo{
-transform: rotateZ();
+.magic.jokonAmiThakbo {
+  transform: rotateZ(360deg);
 }
 
 .magic:active {
