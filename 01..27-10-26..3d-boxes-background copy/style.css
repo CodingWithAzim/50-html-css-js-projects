@@ -33,7 +33,7 @@ body {
   box-shadow: 0 4px 4px blue;
   @import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
 
-  position: absolute;
+  position: fixed;
   top: 20px;
   z-index: 999;
   /* transform: translate(-50%, 0); */
