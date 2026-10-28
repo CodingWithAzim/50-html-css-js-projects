@@ -103,17 +103,7 @@ body {
   position: relative;
 }
 
-/* .box::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 100%;
-  width: var(--d);
-  height: 100%;
-  background-color: rgb(200, 110, 0);
-  transform-origin: left top;
-  transform: skewY(45deg);
-} */
+
 
 .box::after {
   content: "";
