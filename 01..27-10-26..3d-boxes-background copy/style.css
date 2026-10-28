@@ -34,7 +34,7 @@ body {
   @import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
 
   position: absolute;
-    top: 20px;
+    top: -20px;
 }
 
 .magic:active {
