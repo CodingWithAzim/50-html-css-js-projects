@@ -68,8 +68,7 @@ body {
   position: relative;
 }
 
-.box::after{
-    content: "";
-    position: absolute;
-    ;
+.box::after {
+  content: "";
+  position: absolute;
 }
