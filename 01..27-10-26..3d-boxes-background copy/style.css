@@ -79,7 +79,7 @@ body {
   width: var(--d);
   height: 100%;
   background-color: rgb(255, 200, 110);
-  transform-origin: left top;
+  transform-origin: center;
   transform: skewY(45deg); /* ✅ minus = goes UP */
 }
 
