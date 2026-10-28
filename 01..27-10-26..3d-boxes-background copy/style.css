@@ -53,11 +53,13 @@ body {
   height: 100vh;
   background-color: red;
   position: relative;
+
+  display: flex;
 }
 
 .box {
   background-color: blue;
   width: 10vw;
   height: 10vw;
-  
+
 }
