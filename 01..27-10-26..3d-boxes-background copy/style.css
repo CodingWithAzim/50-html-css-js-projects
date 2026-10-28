@@ -49,7 +49,7 @@ body {
 }
 
 .main {
-  /* width: 95%; */
+  width: 95%;
   height: 100vh;
   background-color: red;
   position: relative;
