@@ -44,5 +44,5 @@ body {
 }
 
 .main{
-    width: min(9);
+    width: min(90vmin , );
 }
