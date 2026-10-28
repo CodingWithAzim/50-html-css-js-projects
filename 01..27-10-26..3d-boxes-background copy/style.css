@@ -138,3 +138,14 @@ body {
   transform-origin: left top;
   transform: skewX(45deg);
 } */
+.box::before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  width: 100%;
+  height: var(--d);
+  background-color: rgb(255, 200, 110);
+  transform-origin: left bottom;
+  transform: skewX(-45deg);   /* ✅ minus = goes RIGHT */
+}
