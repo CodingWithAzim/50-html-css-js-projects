@@ -68,3 +68,6 @@ body {
   position: relative;
 }
 
+.box::after{
+    
+}
