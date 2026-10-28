@@ -58,11 +58,12 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-around;
+  gap:2vw;
 }
 
 .box {
   background-color: blue;
-  width: 20px;
-  height: 20px;
+  width: 10vw;
+  height: 10vw;
 
 }
