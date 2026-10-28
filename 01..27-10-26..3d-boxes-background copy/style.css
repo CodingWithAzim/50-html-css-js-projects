@@ -40,8 +40,9 @@ body {
 }
 
 .magic.jokonAmiThakbo{
-  
+
 }
+
 .magic:active {
   box-shadow: none;
   transform: translateY(4px); /* ✅ -50% রাখতে হবে */
