@@ -31,7 +31,6 @@ body {
   position: fixed;
   cursor: pointer;
   box-shadow: 0 4px 4px blue;
-  @import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
 
   position: fixed;
   top: 20px;
