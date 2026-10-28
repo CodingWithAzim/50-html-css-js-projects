@@ -95,7 +95,7 @@ body {
 } */
 
 .box {
-  --d: 6vw;
+  --d: 2vw;
 
   background-color: rgb(255, 153, 0); /* front */
   width: 10vw;
