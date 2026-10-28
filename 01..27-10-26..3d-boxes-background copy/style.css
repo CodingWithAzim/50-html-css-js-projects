@@ -30,3 +30,7 @@ body {
   cursor: pointer;
   box-shadow: 0 4px black;
 }
+
+.container .magic:active{
+    
+}
