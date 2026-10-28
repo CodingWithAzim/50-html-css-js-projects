@@ -28,7 +28,7 @@ body {
   top: 20px;
   position: fixed;
   cursor: pointer;
-  box-shadow:0 1p 5px 5px  blue;
+  box-shadow:0 2px 5px 5px  blue;
 }
 
 .container .magic:active {
