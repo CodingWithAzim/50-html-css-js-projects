@@ -71,4 +71,5 @@ body {
 .box::after {
   content: "";
   position: absolute;
+  top:8px
 }
