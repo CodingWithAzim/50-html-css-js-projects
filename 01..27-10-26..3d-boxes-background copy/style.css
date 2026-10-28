@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=Major+Mono+Display&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=Major+Mono+Display&display=swap");
 
 * {
   margin: 0;
@@ -30,10 +30,11 @@ body {
   top: 20px;
   position: fixed;
   cursor: pointer;
-  box-shadow:0 4px  3px  blue;
-     font-family: "Cascadia Code", sans-serif;
+  box-shadow: 0 4px 3px blue;
+  font-family: "Cascadia Code", sans-serif;
+}
 
-.container .magic:active{
-      box-shadow: none;
+.container .magic:active {
+  box-shadow: none;
   transform: translateY(4px);
-} 
+}
