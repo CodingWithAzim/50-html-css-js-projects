@@ -86,7 +86,6 @@ body {
 .box::before {
   content: "";
   position: absolute;
-
   width: 100%;
   height: var(--d);
   background-color: rgb(255, 200, 110);
