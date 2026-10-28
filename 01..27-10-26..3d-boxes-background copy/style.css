@@ -55,9 +55,8 @@ body {
   position: relative;
 }
 
-
-.box{
-    background-color: blue;
-    width: 10vw;
-   height: 10vw;
+.box {
+  background-color: blue;
+  width: 10vw;
+  height: 10vw;
 }
