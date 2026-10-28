@@ -7,7 +7,7 @@
 body {
   /* width: 100vw; */
   height: 100vh;
-  background: blue;
+  background: rgba(0, 0, 255, 0.459);
   color: white;
 
 }
