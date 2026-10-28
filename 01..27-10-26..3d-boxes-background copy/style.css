@@ -58,7 +58,7 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 4vw 4vw 2vw 2vw; /* ✅ room so faces don't get cut off */
+  /* padding: 4vw 4vw 2vw 2vw; */
   gap: 5vw;
 }
 
