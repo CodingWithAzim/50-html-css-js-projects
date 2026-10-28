@@ -1,1 +1,1 @@
-const btn = document.getElementById("btn");
+const btn = document.querysle
