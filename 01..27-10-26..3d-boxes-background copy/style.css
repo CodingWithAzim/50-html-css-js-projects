@@ -30,7 +30,7 @@ body {
   top: 20px;
   position: fixed;
   cursor: pointer;
-  box-shadow: 0 4px 3px blue;
+  box-shadow: 0 4px 4px blue;
   @import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
 }
 
