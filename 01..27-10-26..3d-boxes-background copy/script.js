@@ -1,1 +1,1 @@
-const btn = document.querysle
+const btn = document.querySelector
