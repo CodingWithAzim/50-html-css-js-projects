@@ -41,5 +41,5 @@ body {
 
 .magic.magic:focus {
   outline: 4px solid blue;
-  outline-offset: 4px;
+  outline-offset: 14px;
 }
