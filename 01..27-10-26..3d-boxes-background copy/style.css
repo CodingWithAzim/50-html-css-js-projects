@@ -6,10 +6,5 @@
 
 body {
   background-color: rgba(54, 29, 95, 0.301);
-  background: linear-gradient(
-    to right,
-    rgba(0, 0, 255, 0.521),
-    rgba(0, 0, 255, 0.24),
-    rgba(0, 0, 255, 0.801)
-  );
+  background: linear-gradient(to right, blue,blue,blue);
 }
