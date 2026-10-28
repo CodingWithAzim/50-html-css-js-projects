@@ -102,7 +102,7 @@ body {
   position: relative;
 }
 
-/* ডান পাশের দেয়াল */
+
 .box::after {
   content: "";
   position: absolute;
@@ -115,7 +115,7 @@ body {
   transform: skewY(45deg);
 }
 
-/* নিচের দেয়াল */
+
 .box::before {
   content: "";
   position: absolute;
