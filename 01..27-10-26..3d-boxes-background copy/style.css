@@ -127,7 +127,7 @@ body {
   transform: skewY(-45deg); /* ✅ minus = goes UP */
 }
 
-.box::before {
+/* .box::before {
   content: "";
   position: absolute;
   top: 100%;
@@ -137,4 +137,4 @@ body {
   background-color: rgb(150, 80, 0);
   transform-origin: left top;
   transform: skewX(45deg);
-}
+} */
