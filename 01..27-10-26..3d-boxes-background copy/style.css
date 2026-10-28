@@ -25,13 +25,12 @@ body {
   font-size: 1rem;
   font-weight: 600;
   letter-spacing: 2px;
-  top:20px;
+  top: 20px;
   position: fixed;
   cursor: pointer;
   box-shadow: 0 4px black;
 }
 
-.container .magic:active{
-    box-shadow: none;
-    ;
-}
+.container .magic:active {
+  box-shadow: none;
+};
