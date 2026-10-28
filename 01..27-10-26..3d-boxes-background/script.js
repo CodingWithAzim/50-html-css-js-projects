@@ -13,7 +13,7 @@ let createBoxes = () => {
 
       div.style.backgroundPosition= `${-col * 125}px ${-row * 125}px`
     }
-  }
+  } 
 };
 
 createBoxes();
