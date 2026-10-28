@@ -41,7 +41,7 @@ body {
 
 .magic:active {
   box-shadow: none;
-  transform: translateX(4px); /* ✅ -50% রাখতে হবে */
+  transform: translateY(4px); /* ✅ -50% রাখতে হবে */
 }
 
 .magic:focus {
