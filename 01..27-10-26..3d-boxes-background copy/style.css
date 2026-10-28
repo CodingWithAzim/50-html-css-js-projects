@@ -39,7 +39,7 @@ body {
   transform: translateY(4px);
 }
 
-.magic.magic:focus {
+.magic:focus {
   outline: none;
 }
 
