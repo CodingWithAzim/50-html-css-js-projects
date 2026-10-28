@@ -1,1 +1,1 @@
- const btn = document.getElementById("")
+const btn = document.getElementById("btn");
