@@ -36,12 +36,15 @@ body {
   position: absolute;
   top: -20px;
   left: 50%;
-  transform: translate(-50%,4px);
+  transform: translate(-50%, 0);
+  transition:
+    transform 0.1s,
+    box-shadow 0.1s;
 }
 
 .magic:active {
   box-shadow: none;
-  transform: translateX(4px);
+  transform: translate(-50%, 4px); /* ✅ -50% রাখতে হবে */
 }
 
 .magic:focus {
