@@ -89,7 +89,6 @@ body {
 
   width: 15px;
   height: 100%;
-  /* background-color: red; */
   transform: skewY(45deg);
   background-color: #f6e58d;
 }
