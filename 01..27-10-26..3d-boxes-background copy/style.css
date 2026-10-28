@@ -39,7 +39,9 @@ body {
   /* transform: translate(-50%, 0); */
 }
 
-.magic.jokonAmiThakbo
+.magic.jokonAmiThakbo{
+  
+}
 .magic:active {
   box-shadow: none;
   transform: translateY(4px); /* ✅ -50% রাখতে হবে */
