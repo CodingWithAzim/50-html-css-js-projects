@@ -12,5 +12,6 @@ body {
 }
 
 .container{
-    height: 10;
+    height: 100vh;
+    ;
 }
