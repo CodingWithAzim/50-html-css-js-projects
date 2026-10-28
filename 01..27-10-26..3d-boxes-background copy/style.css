@@ -93,7 +93,6 @@ body {
   /* transform-origin: left bottom; */
   transform: skewX(45deg); /* ✅ minus = goes RIGHT */
 
-left: 0;
-top:100%;
-
+  left: 0;
+  top: 100%;
 }
