@@ -116,7 +116,7 @@ body {
 } */
 .box {
   transform: rotate(30deg);
-  transform-origin: right bottom;   /* ডান-নিচের কোণা স্থির */
+  /* transform-origin: right bottom;   ডান-নিচের কোণা স্থির */
 }
 .box::after {
   content: "";
