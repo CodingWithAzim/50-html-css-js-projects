@@ -18,8 +18,7 @@ body {
   flex-direction: column;
 }
 
-.container .magic{
-    padding:15px 25px;
-    border-radius: 3px;
-    ;
+.container .magic {
+  padding: 15px 25px;
+  border-radius: 3px;
 }
