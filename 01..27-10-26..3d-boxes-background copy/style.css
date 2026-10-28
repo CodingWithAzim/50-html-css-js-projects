@@ -27,4 +27,5 @@ body {
   letter-spacing: 2px;
   top:20px;
   position: fixed;
+  cursor: pointer;
 }
