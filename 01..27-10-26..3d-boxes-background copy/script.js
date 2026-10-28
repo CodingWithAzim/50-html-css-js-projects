@@ -1,2 +1,2 @@
 const btn = document.querySelector("#btn");
-const mainBox = document.querySelector(".")
+const mainBox = document.querySelector(".main")
