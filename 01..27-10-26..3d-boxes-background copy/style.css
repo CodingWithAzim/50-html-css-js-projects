@@ -20,4 +20,6 @@ body {
 
 .container .magic{
     padding:15px 25px;
+    border-radius: 3px;
+    ;
 }
