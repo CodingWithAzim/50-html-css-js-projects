@@ -92,7 +92,7 @@ body {
   transform: skewY(45deg);
   background-color: #f6e58d;
 }
-
+ 
 .box::before {
   content: "";
   background-color: #f9ca24;
