@@ -26,7 +26,7 @@ h4 {
   border: 1px solid red;
 }
 
-.counter .hide {
+.counter {
   transform: translate(-50%, -50%) scale(0);
   animation: hide 0.2s;
 }
@@ -48,7 +48,7 @@ h4 {
   text-align: center;
 }
 
-.final .show {
+.final {
   transform: translate(-50%, -50%) scale(1);
   animation: show 0.2s;
 }
@@ -85,7 +85,7 @@ h4 {
   transform-origin: bottom center;
 }
 
-.counter .nums span.in {
+.counter .nums span {
   transform: translate(-50%, -50%) rotate(0deg);
   animation: goIn 3s;
 }
@@ -102,5 +102,21 @@ h4 {
   }
   100% {
     transform: translate(-50%, -50%) rotate(0deg);
+  }
+}
+
+.counter .nums span {
+  animation: goOut 5s;
+}
+
+@keyframes goOut {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  60% {
+    transform: translate(-50%, -50%) rotate(20deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(-120deg);
   }
 }
