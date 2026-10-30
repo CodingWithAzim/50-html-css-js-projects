@@ -23,6 +23,7 @@ body {
 }
 
 .counter .nums span {
+  position: absolute;
   font-size: 50px;
   color: blue;
   top: 50%;
