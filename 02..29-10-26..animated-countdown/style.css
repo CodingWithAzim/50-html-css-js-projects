@@ -5,24 +5,25 @@ body {
 }
 
 .counter {
-  width: 120px;
-  height: 80px;
+  /* width: 120px;
+  height: 80px; */
   border: 2px solid red;
-  position: absolute;
+  /* position: absolute; */
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   /* opacity: 0; */
 }
 .final {
-  width: 120px;
-  height: 80px;
+  /* width: 120px;
+  height: 80px; */
   border: 1.5px solid rgb(0, 255, 76);
 
-  position: absolute;
+  /* position: absolute; */
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  opacity: 0;
+  /* opacity: 0; */
 }
-
