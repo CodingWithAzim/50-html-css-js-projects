@@ -4,3 +4,24 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.counter {
+  width: 120px;
+  height: 80px;
+  border: 2px solid red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* opacity: 0; */
+}
+.final {
+  width: 120px;
+  height: 80px;
+  border: 1.5px solid rgb(0, 255, 76);
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* opacity: 0; */
+}
