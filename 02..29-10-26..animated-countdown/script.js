@@ -8,7 +8,6 @@ runAnimation();
 function runAnimation() {
   nums.forEach((num, index) => {
     const lastIndex = nums.length - 1;
-console.log(num);
 
     num.addEventListener("animationend", (e) => {
       if (
