@@ -23,12 +23,11 @@ h4 {
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
   text-align: center;
-  border: 1px solid red;
 }
 
 .counter.hide {
-  /* transform: translate(-50%, -50%) scale(0); */
-  animation: hide 0.2s forwards;
+  transform: translate(-50%, -50%) scale(0);
+  animation: hide 0.2s ease-out;
 }
 
 @keyframes hide {
@@ -44,82 +43,118 @@ h4 {
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) scale(0); /*default  vanish */
+  transform: translate(-50%, -50%) scale(0);
   text-align: center;
 }
 
-/* jokon show add korbo tokon animation chole arbe show hobe */
 .final.show {
-  /* ei line ta lagto na jodi animation a forswards add kortam */
-  /*  transform: translate(-50%, -50%) scale(1); */ /* অ্যানিমেশন শেষ হওয়ার পর ব্রাউজার আবার আসল transform দেখে */
-  /* forwards মানে অ্যানিমেশন শেষ হলে শেষ কীফ্রেমের অবস্থাতেই থেমে থাকবে (এখানে scale(1))। তাহলে আলাদা transform লাইন লাগবে না। ✅ */
-  animation: show 0.2s forwards; /* ei jaygai forwards dile */
+  animation: show 0.2s forwards;
 }
 
 @keyframes show {
-  0% {
+  from {
     transform: translate(-50%, -50%) scale(0);
   }
+
   30% {
     transform: translate(-50%, -50%) scale(1.4);
   }
-  100% {
+
+  to {
     transform: translate(-50%, -50%) scale(1);
   }
 }
 
-.counter .nums {
+.nums {
   color: #3498db;
   font-size: 50px;
   position: relative;
-  /* overflow: hidden; */
+  overflow: hidden;
   width: 250px;
   height: 50px;
-  border: 1px solid black;
 }
 
-.counter .nums span {
-  /* background-color: red; */
+.nums span {
   position: absolute;
   top: 50%;
   left: 50%;
-
   transform: translate(-50%, -50%) rotate(120deg);
   transform-origin: bottom center;
 }
 
-.counter .nums span.in {
-  /* transform: translate(-50%, -50%) rotate(0deg); */
-  animation: goIn 3s forwards;
+.nums span.in {
+  animation: goIn 0.5s ease-in-out forwards;
+}
+
+.nums span.out {
+  animation: goOut 0.5s ease-in-out;
 }
 
 @keyframes goIn {
   0% {
     transform: translate(-50%, -50%) rotate(120deg);
   }
+
   30% {
     transform: translate(-50%, -50%) rotate(-20deg);
   }
+
   60% {
     transform: translate(-50%, -50%) rotate(10deg);
   }
+
   100% {
     transform: translate(-50%, -50%) rotate(0deg);
   }
-}
-
-.counter .nums span.out {
-  animation: goOut 5s ;
 }
 
 @keyframes goOut {
   0% {
     transform: translate(-50%, -50%) rotate(0deg);
   }
+
   60% {
     transform: translate(-50%, -50%) rotate(20deg);
   }
+
   100% {
     transform: translate(-50%, -50%) rotate(-120deg);
   }
+}
+
+#replay {
+  background-color: #3498db;
+  border-radius: 3px;
+  border: none;
+  color: aliceblue;
+  padding: 5px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+#replay span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.3s;
+}
+
+#replay span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#replay:hover span {
+  padding-right: 25px;
+}
+
+#replay:hover span:after {
+  opacity: 1;
+  right: 0;
 }
