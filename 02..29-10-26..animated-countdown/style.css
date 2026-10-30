@@ -4,23 +4,28 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.counter{
-  position:fixed;
-  top:50%;
-  left:50%;
+.counter {
+  position: fixed;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
   background-color: honeydew;
 }
 
 .counter .nums {
   background-color: antiquewhite;
-  width:250px;
-  height: 50px;;
-  position: absolute;
+  width: 250px;
+  height: 50px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: relative;
 }
 
-.counter .nums span{
+.counter .nums span {
   font-size: 50px;
   color: blue;
-
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
