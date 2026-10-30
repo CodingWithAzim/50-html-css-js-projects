@@ -26,9 +26,9 @@ h4 {
   border: 1px solid red;
 }
 
-.counter {
-  transform: translate(-50%, -50%) scale(0);
-  animation: hide 0.2s;
+.counter.hide {
+  /* transform: translate(-50%, -50%) scale(0); */
+  animation: hide 0.2s forwards;
 }
 
 @keyframes hide {
@@ -48,9 +48,12 @@ h4 {
   text-align: center;
 }
 
-.final {
-  transform: translate(-50%, -50%) scale(1);
-  animation: show 0.2s;
+/* jokon show add korbo tokon animation chole arbe show hobe */
+.final.show {
+  /* ei line ta lagto na jodi animation a forswards add kortam */
+  /*  transform: translate(-50%, -50%) scale(1); */ /* অ্যানিমেশন শেষ হওয়ার পর ব্রাউজার আবার আসল transform দেখে */
+  /* forwards মানে অ্যানিমেশন শেষ হলে শেষ কীফ্রেমের অবস্থাতেই থেমে থাকবে (এখানে scale(1))। তাহলে আলাদা transform লাইন লাগবে না। ✅ */
+  animation: show 0.2s forwards; /* ei jaygai forwards dile */
 }
 
 @keyframes show {
@@ -85,9 +88,9 @@ h4 {
   transform-origin: bottom center;
 }
 
-.counter .nums span {
-  transform: translate(-50%, -50%) rotate(0deg);
-  animation: goIn 3s;
+.counter .nums span.in {
+  /* transform: translate(-50%, -50%) rotate(0deg); */
+  animation: goIn 3s forwards;
 }
 
 @keyframes goIn {
@@ -105,8 +108,8 @@ h4 {
   }
 }
 
-.counter .nums span {
-  animation: goOut 5s;
+.counter .nums span.out {
+  animation: goOut 5s ;
 }
 
 @keyframes goOut {
