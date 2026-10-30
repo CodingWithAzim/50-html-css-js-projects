@@ -14,10 +14,6 @@ function runAnimation() {
         e.animationName === "goIn" &&
         index !== lastIndex
       ) {
-        console.log(
-          `index: ${index} lastIndex:${lastIndex}`,
-        );
-
         num.classList.remove("in");
         num.classList.add("out");
       } else if (
