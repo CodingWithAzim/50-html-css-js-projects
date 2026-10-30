@@ -18,7 +18,7 @@ body {
 .final {
   /* width: 120px;
   height: 80px; */
-  border: 1.5px solid rgb(0, 255, 76);
+  border: 2px solid rgb(0, 255, 76);
 
   /* position: absolute; */
   position: fixed;
@@ -28,9 +28,11 @@ body {
   opacity: 0;
 }
 
-h4{
-    font-size: 20px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    ;
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.nums {
+  border: 2px solid rgb(0, 4, 255);
 }
