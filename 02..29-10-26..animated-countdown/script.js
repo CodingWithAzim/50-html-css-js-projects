@@ -9,5 +9,16 @@ const replay = document.querySelector("#replay");
 runAnimation();
 
 function runAnimation() {
-    
+
+
+
+
+
+
+
+
+
+
+
+
 }
