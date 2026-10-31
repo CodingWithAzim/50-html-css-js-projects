@@ -68,6 +68,13 @@ body {
 
 .final #replay span {
   transition: 0.3s;
+  position: relative;
+}
+#replay span::after {
+  content: "\00bb";
+  position: absolute;
+  top: 0;
+  right: -20px;
 }
 .final #replay:hover span {
   padding-right: 15px;
