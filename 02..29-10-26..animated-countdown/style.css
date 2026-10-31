@@ -72,10 +72,11 @@ body {
   position: absolute;
   top: 0;
   right: -20px;
+  opacity: 0;
 }
 
 .final #replay:hover {
-    transition: 5s;
+  transition: 5s;
 
   padding-right: 25px;
 }
