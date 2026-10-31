@@ -76,6 +76,7 @@ body {
   top:0;
   right: -20px;
   transition: 0.5s;
+  opacity: 0;
 }
 
 #replay:hover span{
@@ -83,5 +84,6 @@ body {
 }
 
 #replay:hover span::after{
-
+opacity: 1;
+right: 0;
 }
