@@ -52,6 +52,11 @@ body {
   animation: goIn 2s forwards;
 }
 
+@keyframes goIn {
+  0%{
+    transform: translate(-50%, -50%) rotate(-120deg)
+  }
+}
 .counter h4 {
   text-transform: uppercase;
   font-size: 25px;
