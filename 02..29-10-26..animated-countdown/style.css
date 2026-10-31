@@ -75,5 +75,7 @@ body {
 }
 
 .final #replay:hover {
+    transition: 5s;
+
   padding-right: 25px;
 }
