@@ -10,9 +10,9 @@ runAnimation();
 
 function runAnimation() {
   nums.forEach((num, index, fullArray) => {
+    const Lastindex = nums.length - 1;
 
-Lastindex
-
-
+  
+    
   });
 }
