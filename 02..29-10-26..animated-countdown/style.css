@@ -12,7 +12,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-  border: 2px solid red;
+  /* border: 2px solid red; */
   text-align: center;
 }
 .counter.hide {
@@ -32,7 +32,9 @@ body {
   width: 300px;
   height: 50px;
   position: relative;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
+    overflow: hidden;
+
 }
 
 .counter .nums span {
@@ -47,7 +49,7 @@ body {
 }
 
 span.in {
-  animation: goIn 0.5s forwards;
+  animation: goIn 0.5s forwards ease-in-out;
 }
 
 @keyframes goIn {
@@ -66,7 +68,7 @@ span.in {
 }
 
 span.out {
-  animation: goOut 5s;
+  animation: goOut 5s ease-in-out;
 }
 
 @keyframes goOut {
