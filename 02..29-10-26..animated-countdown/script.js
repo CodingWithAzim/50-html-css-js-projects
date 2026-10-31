@@ -18,7 +18,15 @@ function runAnimation() {
 
     num.addEventListener("animationend", (e) =>{
         // console.log(e.animationName);
+        // console.log(index);
+        console.log();
         
+
+        
+    //   if(
+
+    //     e.animationName = "goIn" && 
+    //   )  
     })
   });
 }
