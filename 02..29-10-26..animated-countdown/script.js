@@ -9,7 +9,7 @@ const replay = document.querySelector("#replay");
 runAnimation();
 
 function runAnimation() {
-    nums.forEach((nums, index) =>{
+    nums.forEach((num, index) =>{
   console.log(num);
     // console.log(index);
     // num= all full span
