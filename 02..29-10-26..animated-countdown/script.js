@@ -26,11 +26,12 @@ function runAnimation() {
       ) {
         num.classList.remove("in");
         num.classList.add("out");
+      } else if (
+        (e.animationName =
+          "goOut" && num.nextElementSibling)
+      ) {
+        num.nextElementSibling.classList.add("in");
       }
-
-
-
-      
     });
   });
 }
