@@ -22,7 +22,7 @@ function runAnimation() {
       }
 
 else(
-    e.animationName === "goOut" 
+    e.animationName === "goOut" && num.nextElementSibling
 )
 
     });
