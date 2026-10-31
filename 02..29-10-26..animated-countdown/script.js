@@ -19,14 +19,12 @@ function runAnimation() {
       ) {
         num.classList.remove("in");
         num.classList.add("out");
+      } else if (
+        e.animationName === "goOut" &&
+        num.nextElementSibling
+      ) {
+        num.classList.add("in");
       }
-
-else(
-    e.animationName === "goOut" && num.nextElementSibling
-){
-     num.classList.add("in");
-}
-
     });
   });
 }
