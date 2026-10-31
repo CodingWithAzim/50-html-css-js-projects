@@ -16,19 +16,17 @@ function runAnimation() {
     //  console.log(num.className); // "in" // ক্লাসের লিস্ট
     const lastIndex = nums.length - 1;
 
-    num.addEventListener("animationend", (e) =>{
-        // console.log(e.animationName);
-        // console.log(index);
-        // console.log(lastIndex);
-        
+    num.addEventListener("animationend", (e) => {
+      // console.log(e.animationName);
+      // console.log(index);
+      // console.log(lastIndex);
 
-        
-      if(
-
-        e.animationName = "goIn" && index !== lastIndex
+      if (
+        (e.animationName = "goIn" && index !== lastIndex)
       ) {
-        
-      } 
-    })
+        num.classList.remove("goIn");
+        num.classList.add("goOut");
+      }
+    });
   });
 }
