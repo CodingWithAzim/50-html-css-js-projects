@@ -36,11 +36,10 @@ function runAnimation() {
 
 /* ===== third time ===== */
 
-
 let resetDom = () => {
-    
-}
-
-
+  counter.classList.remove("hide");
+  finalMessage.classList.remove("show");
+  nums.classList.add("in");
+};
 
 replay.addEventListener("click", resetDom);
