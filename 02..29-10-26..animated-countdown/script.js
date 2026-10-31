@@ -12,19 +12,19 @@ function runAnimation() {
   nums.forEach((num, index, fullArray) => {
     const Lastindex = nums.length - 1;
 
-  num.addEventListener('animationend', (e) =>{
+    num.addEventListener("animationend", (e) => {
+      if (
+        e.animationName === "goIn" &&
+        index !== Lastindex
+      ) {
+        num.classList.remove("in");
+        num.classList.add("out");
+      }
 
-   if(
-    e.animationName === "goIn" && index !== Lastindex
-   ){
+else(
+    e.animationName === "goOut" 
+)
 
-    
-   }
-    
-  })
-    
-  
-
-
+    });
   });
 }
