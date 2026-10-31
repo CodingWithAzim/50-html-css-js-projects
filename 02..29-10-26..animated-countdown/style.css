@@ -19,12 +19,12 @@ body {
 /* ===== for hiding counter with animation===== */
 .counter.hide {
   /* transform: translate(-50%, -50%) scale(0); */
-  animation: hide 0.2s ;
+  animation: hide 0.2s forwards;
 }
 
 @keyframes hide {
   0%{
-
+transform: translate(-50%, -50%) scale(1);
   }
 }
 
