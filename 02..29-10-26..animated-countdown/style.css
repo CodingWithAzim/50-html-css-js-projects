@@ -65,6 +65,8 @@ body {
   text-align: center;
 }
 
- /* content: "\00bb"; */
+/* content: "\00bb"; */
 
- 
+.final #replay span {
+  position: relative;
+}
