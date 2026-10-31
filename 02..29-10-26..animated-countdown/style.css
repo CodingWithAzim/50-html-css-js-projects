@@ -41,21 +41,24 @@ body {
   margin-top: 0;
 }
 
-
 /* ===== Go ready part ===== */
 
-.final{
+.final {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  position: fixed;;
-  ;
+  position: fixed;
+  text-align: center;
 }
 
-.final h1{
+.final h1 {
   text-transform: uppercase;
 }
 
-.final #replay{
-  
+.final #replay {
+  background-color: rgb(255, 0, 140);
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 5px;
 }
