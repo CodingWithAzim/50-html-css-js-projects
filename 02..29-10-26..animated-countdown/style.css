@@ -58,12 +58,17 @@ body {
 .final #replay {
   background-color: rgb(255, 0, 140);
   color: white;
+  font-weight: 500;
+  font-size: 17px;
   border: none;
   padding: 8px 20px;
   border-radius: 5px;
   cursor: pointer;
 }
 
+.final #replay span {
+  transition: 0.3s;
+}
 .final #replay:hover span {
   padding-right: 15px;
 }
