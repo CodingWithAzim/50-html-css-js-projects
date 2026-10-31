@@ -22,7 +22,8 @@ function runAnimation() {
       // console.log(lastIndex);
 
       if (
-        (e.animationName === "goIn" && index !== lastIndex)
+        e.animationName === "goIn" &&
+        index !== lastIndex
       ) {
         num.classList.remove("in");
         num.classList.add("out");
@@ -31,6 +32,9 @@ function runAnimation() {
           "goOut" && num.nextElementSibling)
       ) {
         num.nextElementSibling.classList.add("in");
+      } else {
+        finalMessage.classList.add(".show");
+
       }
     });
   });
