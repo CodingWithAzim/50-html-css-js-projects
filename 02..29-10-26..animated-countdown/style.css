@@ -64,26 +64,3 @@ body {
   cursor: pointer;
 }
 
-.final #replay span {
-  display: inline-block;
-  position: relative;
-  /* transition: 0.3s; */
-}
-
-.final #replay span:after {
-  content: "\00bb";
-  position:absolute;
-  top:0;
-  right: -20px;
-  /* transition: 5s; */
-  opacity: 0;
-}
-
-#replay:hover span{
-  padding-right: 25px;
-}
-
-#replay:hover span::after{
-opacity: 1;
-right: 0;
-}
