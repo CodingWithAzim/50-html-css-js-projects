@@ -71,5 +71,5 @@ body {
 }
 
 .final #replay span:after{
-  
+  content:"\00bb";
 }
