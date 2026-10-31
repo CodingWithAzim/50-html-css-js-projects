@@ -13,8 +13,8 @@ function runAnimation() {
     const Lastindex = nums.length - 1;
 
     num.addEventListener("animationend", (e) => {
-        console.log(num,e.animationName);
-        
+      console.log(num, e.animationName);
+
       if (
         e.animationName === "goIn" &&
         index !== Lastindex
@@ -26,10 +26,21 @@ function runAnimation() {
         num.nextElementSibling
       ) {
         num.nextElementSibling.classList.add("in");
-      }
-      else{
-        counter.classList.a
+      } else {
+        counter.classList.add("hide");
+        finalMessage.classList.add("show");
       }
     });
   });
 }
+
+/* ===== third time ===== */
+
+
+let resetDom = () => {
+    
+}
+
+
+
+replay.addEventListener("click", resetDom);
