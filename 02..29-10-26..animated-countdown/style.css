@@ -16,7 +16,7 @@ body {
   text-align: center;
 }
 .counter.hide {
-  animation: hide 0.2s forwards;
+  animation: hide 5s forwards;
 }
 
 @keyframes hide {
