@@ -46,15 +46,23 @@ body {
   margin-bottom: 0;
 }
 
-span.in{
-  animation: goIn 5s forwards;
+span.in {    
+  animation: goIn 0.5s forwards;
 }
 
 @keyframes goIn {
-  0%{
-    transform: translate(-50%, -50%) rotate(120deg)
+  0% {
+    transform: translate(-50%, -50%) rotate(120deg);
   }
-  
+  30% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  60%{
+    transform: translate(-50%, -50%) rotate(-20deg)
+  }
+  100%{
+    transform: translate(-50%, -50%)rotate(0deg)
+  }
 }
 .counter h4 {
   text-transform: uppercase;
