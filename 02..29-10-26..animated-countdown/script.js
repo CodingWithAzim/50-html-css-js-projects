@@ -2,9 +2,9 @@
 
 const counter = document.querySelector(".counter");
 
-console.log(counter.classList);
-
 const nums = document.querySelectorAll(".nums span");
+console.log(nums);
+
 const finalMessage = document.querySelector(".final");
 const replay = document.querySelector("#replay");
 
