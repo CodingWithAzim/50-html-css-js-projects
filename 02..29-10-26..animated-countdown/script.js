@@ -9,10 +9,7 @@ const replay = document.querySelector("#replay");
 runAnimation();
 
 function runAnimation() {
-
-
-
-console.log(nums);
+// console.log(nums);
 
 
 
