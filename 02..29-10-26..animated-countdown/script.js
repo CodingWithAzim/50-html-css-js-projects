@@ -9,5 +9,16 @@ const replay = document.querySelector("#replay");
 runAnimation();
 
 function runAnimation() {
-    nums.forEach(nums,index)
+    nums.forEach((nums, index) = >{
+  console.log(num);
+    // console.log(index);
+    // num= all full span
+    // console.log(num.textContent);
+    /*  console.log(
+      `content: ${num.textContent} index: ${index} `,
+    ); */
+    //  console.log(num.classList);
+    //  console.log(num.className); // "in" // ক্লাসের লিস্ট
+
+    });
 }
