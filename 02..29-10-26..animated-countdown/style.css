@@ -14,12 +14,12 @@ body {
   transform: translate(-50%, -50%);
   border: 2px solid red;
   text-align: center;
-  opacity: 1;
+  opacity: 1; 
 }
 /* ===== for hiding counter with animation===== */
 .counter.hide {
   /* transform: translate(-50%, -50%) scale(0); */
-  animation: hide 2s forwards;
+  animation: hide 0.2s forwards;
 }
 
 @keyframes hide {
@@ -67,7 +67,7 @@ body {
 }
 
 .final.show {
-  animation: show 2s forwards;
+  animation: show 0.2s forwards;
 }
 
 @keyframes show {
