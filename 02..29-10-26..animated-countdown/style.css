@@ -62,13 +62,17 @@ body {
   transform: translate(-50%, -50%);
   position: fixed;
   text-align: center;
-  opacity: 0;
+  /* opacity: 0; */
+  transform: translate(-50%, -50%) scale(0);
 }
 
 .final.show {
   animation: show 2s forwards;
 }
 
+@keyframes show {
+  
+}
 .final h1 {
   text-transform: uppercase;
 }
