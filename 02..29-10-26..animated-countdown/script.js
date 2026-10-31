@@ -11,7 +11,7 @@ runAnimation();
 function runAnimation() {
 // console.log(nums);
 
-
+nums.forEach()
 
 
 
