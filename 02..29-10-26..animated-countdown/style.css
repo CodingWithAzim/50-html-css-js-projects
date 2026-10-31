@@ -70,6 +70,7 @@ body {
   transition: 0.3s;
   position: relative;
 }
+
 #replay span::after {
   content: "\00bb";
   position: absolute;
@@ -77,6 +78,7 @@ body {
   right: -30px;
   opacity: 0;
 }
+
 .final #replay:hover span {
   padding-right: 15px;
 }
