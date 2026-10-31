@@ -9,16 +9,13 @@ const replay = document.querySelector("#replay");
 runAnimation();
 
 function runAnimation() {
-    nums.forEach((num, index) =>{
-//   console.log(num);
-    // console.log(index);
-    // num= all full span
-    // console.log(num.textContent);
-     console.log(
-      `content: ${num.textContent} index: ${index} `,
-    ); 
-    //  console.log(num.classList);
-     console.log(num.className); // "in" // ক্লাসের লিস্ট
-
-    });
+  nums.forEach((num, index) => {
+    //  console.log(
+    //   `content: ${num.textContent} index: ${index} `,
+    // );
+    //  console.log(num.className); // "in" // ক্লাসের লিস্ট
+    // console.log(nums.length - 1);
+    console.log(num.length - 1);
+    
+  });
 }
