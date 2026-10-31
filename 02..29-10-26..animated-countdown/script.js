@@ -12,6 +12,7 @@ function runAnimation() {
 
 
 
+console.log(nums);
 
 
 
