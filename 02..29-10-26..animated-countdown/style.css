@@ -50,7 +50,7 @@ body {
 }
 
 .nums span.in {
-  animation: goIn 1s forwards;
+  animation: goIn 0.5s forwards;
 }
 
 @keyframes goIn {
