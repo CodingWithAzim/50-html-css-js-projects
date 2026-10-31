@@ -12,16 +12,16 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* border: 2px solid red; */
+  border: 2px solid red;
   text-align: center;
-  opacity: 0;
+  opacity: 1;
 }
 
 .counter .nums {
   width: 300px;
   height: 50px;
   position: relative;
-  /* border: 2px solid blue; */
+  border: 2px solid blue;
 }
 
 .counter .nums span {
@@ -49,6 +49,7 @@ body {
   transform: translate(-50%, -50%);
   position: fixed;
   text-align: center;
+  opacity: 0;
 }
 
 .final h1 {
