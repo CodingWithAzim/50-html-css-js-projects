@@ -23,10 +23,12 @@ function runAnimation() {
         
 
         
-    //   if(
+      if(
 
-    //     e.animationName = "goIn" && 
-    //   )  
+        e.animationName = "goIn" && index !== lastIndex
+      ) {
+        
+      } 
     })
   });
 }
