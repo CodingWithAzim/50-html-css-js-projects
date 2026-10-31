@@ -23,7 +23,9 @@ function runAnimation() {
 
 else(
     e.animationName === "goOut" && num.nextElementSibling
-)
+){
+     num.classList.add("in");
+}
 
     });
   });
