@@ -56,5 +56,8 @@ body {
 }
 
 .final #replay{
-  
+ background-color: #3498db;;
+ color: white;
+ border: none;
+ padding: 10px 5px;;
 }
