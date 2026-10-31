@@ -63,7 +63,7 @@ body {
   border-radius: 5px;
   cursor: pointer;
   text-align: center;
-  transition: all 0.3s;
+  transition:  5s;
 }
 
 .final #replay span {
