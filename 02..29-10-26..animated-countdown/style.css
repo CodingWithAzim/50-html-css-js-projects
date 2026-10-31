@@ -72,6 +72,8 @@ body {
   content: "\00bb";
   position: absolute;
   top: 0;
+  right:0;
+  opacity: 0;
   /* right: -10px; */
 }
 
@@ -80,5 +82,6 @@ body {
 }
 
 .final #replay:hover span::after {
+  opacity: 1;
   right: 0;
 }
