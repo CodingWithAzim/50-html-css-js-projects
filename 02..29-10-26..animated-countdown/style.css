@@ -64,7 +64,7 @@ body {
 }
 
 .final.show {
-  animation: show 2s forwards;
+  animation: show 5s forwards;
 }
 
 @keyframes show {
