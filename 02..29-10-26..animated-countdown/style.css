@@ -60,7 +60,7 @@ body {
   transform: translate(-50%, -50%) scale(0);
   position: fixed;
   text-align: center;
-  opacity: 0;
+    
 }
 
 .final.show {
