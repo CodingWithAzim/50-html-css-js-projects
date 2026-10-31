@@ -24,8 +24,8 @@ function runAnimation() {
       if (
         (e.animationName = "goIn" && index !== lastIndex)
       ) {
-        num.classList.remove("goIn");
-        num.classList.add("goOut");
+        num.classList.remove("in");
+        num.classList.add("out");
       }
     });
   });
