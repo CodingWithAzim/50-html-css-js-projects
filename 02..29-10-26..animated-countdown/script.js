@@ -1,5 +1,4 @@
-const nums = document.querySelectorAll(".nums span");
+/* ===== fist ===== */
 
 const counter = document.querySelector(".counter");
-const finalMessage = document.querySelector(".final");
-const replay = document.querySelector("#replay");
+
