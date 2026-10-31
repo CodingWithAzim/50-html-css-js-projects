@@ -11,15 +11,22 @@ body {
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) scale(1);
   border: 2px solid red;
   text-align: center;
-
 }
-.counter.hide{
+.counter.hide {
   animation: hide 0.2s forwards;
 }
 
+@keyframes hide {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+  } 
+  100% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+}
 
 .counter .nums {
   width: 300px;
@@ -55,6 +62,7 @@ body {
   text-align: center;
   opacity: 0;
 }
+
 
 .final h1 {
   text-transform: uppercase;
