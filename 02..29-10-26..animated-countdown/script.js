@@ -9,7 +9,7 @@ const replay = document.querySelector("#replay");
 runAnimation();
 
 function runAnimation() {
-  nums.forEach((num, index, fullArray) => {
+  nums.forEach((num, index) => {
     const Lastindex = nums.length - 1;
 
     num.addEventListener("animationend", (e) => {
