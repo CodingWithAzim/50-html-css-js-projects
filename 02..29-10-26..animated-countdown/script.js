@@ -10,9 +10,10 @@ runAnimation();
 
 function runAnimation() {
   // console.log(nums);
+  
+console.log(nums.length - 1);
 
   nums.forEach((num, index, fullArray) => {
 
-    
   });
 }
