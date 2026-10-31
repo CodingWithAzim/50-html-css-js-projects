@@ -14,6 +14,7 @@ body {
   transform: translate(-50%, -50%);
   /* border: 2px solid red; */
   text-align: center;
+  opacity: 0;
 }
 
 .counter .nums {
@@ -30,10 +31,31 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   color: rgb(255, 0, 140);
+
   margin-bottom: 0;
 }
 
 .counter h4 {
-  font-size: 30px;
+  text-transform: uppercase;
+  font-size: 25px;
   margin-top: 0;
+}
+
+
+/* ===== Go ready part ===== */
+
+.final{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;;
+  ;
+}
+
+.final h1{
+  text-transform: uppercase;
+}
+
+.final #replay{
+  
 }
