@@ -68,6 +68,7 @@ body {
 .final #replay span {
   position: relative;
   display: inline-block;
+  transition: 0.3s;
 }
 
 #replay span::after {
@@ -77,6 +78,7 @@ body {
   /* right:0; */
   opacity: 0;
   right: -20px;
+  transition: 0.5s;
 }
 
 #replay:hover span {
