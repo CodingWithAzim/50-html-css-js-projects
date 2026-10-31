@@ -47,7 +47,14 @@ body {
 }
 
 span.in{
-  animation: goIn 5s ;
+  animation: goIn 5s forwards;
+}
+
+@keyframes goIn {
+  0%{
+    transform: translate(-50%, -50%) rotate(120deg)
+  }
+  
 }
 .counter h4 {
   text-transform: uppercase;
