@@ -17,8 +17,8 @@ function runAnimation() {
     const lastIndex = nums.length - 1;
 
     num.addEventListener("animationend", (e) => {
-      // console.log(e.animationName);
-      // console.log(index);
+      console.log(e.animationName);
+      console.log(index);
       // console.log(lastIndex);
 
       if (
