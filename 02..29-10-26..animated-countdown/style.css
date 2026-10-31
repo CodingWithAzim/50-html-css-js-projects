@@ -81,7 +81,7 @@ body {
   right: -20px;
 }
 
-#replay span:hover {
+#replay:hover span {
   padding-right: 25px;
 }
 
