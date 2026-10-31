@@ -78,3 +78,6 @@ body {
   transition: 0.5s;
 }
 
+#replay:hover span{
+  padding-right: 25px;
+}
