@@ -48,12 +48,13 @@ body {
 /* ===== final section ===== */
 
 .final{
+  text-align: center;
   height: 50px;;
   position: fixed;
    top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);;
-  background-color: burlywood;
+  /* background-color: burlywood; */
 }
 
 .final #replay{
@@ -62,4 +63,5 @@ body {
  border: none;
  padding: 7px 10px;;
  border-radius: 5px;
+ cursor: pointer;
 }
