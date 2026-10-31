@@ -9,14 +9,11 @@ const replay = document.querySelector("#replay");
 runAnimation();
 
 function runAnimation() {
-// console.log(nums);
+  // console.log(nums);
 
-nums.forEach()
-
-
+  nums.forEach((num,index,fullArray) => {
 
 
 
-
-
+  });
 }
