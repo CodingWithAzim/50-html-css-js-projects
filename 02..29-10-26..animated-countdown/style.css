@@ -40,13 +40,11 @@ body {
   font-size: 60px;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) rotate(120deg);
   color: rgb(255, 0, 140);
-
+transform-origin: bottom center;
   margin-bottom: 0;
 }
-
-
 
 .counter h4 {
   text-transform: uppercase;
@@ -63,7 +61,7 @@ body {
   position: fixed;
   text-align: center;
 }
-  
+
 .final.show {
   animation: show 0.2s forwards;
 }
