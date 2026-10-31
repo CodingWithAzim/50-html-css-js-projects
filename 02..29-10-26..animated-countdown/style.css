@@ -16,7 +16,7 @@ body {
   text-align: center;
 }
 .counter.hide {
-  animation: hide 5s forwards;
+  animation: hide 0.2s forwards;
 }
 
 @keyframes hide {
@@ -61,9 +61,9 @@ body {
   position: fixed;
   text-align: center;
 }
-
+  
 .final.show {
-  animation: show 5s forwards;
+  animation: show 0.2s forwards;
 }
 
 @keyframes show {
