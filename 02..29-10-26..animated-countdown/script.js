@@ -26,9 +26,12 @@ function runAnimation() {
       ) {
         num.classList.remove("in");
         num.classList.add("out");
-      }else(e.animationName = "goOut" && i
+      }else
+        (e.animationName = "goOut" && num.nextElementSibling
 
-      )
+      ){
+
+      }
     });
   });
 }
