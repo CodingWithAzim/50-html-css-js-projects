@@ -66,6 +66,8 @@ body {
 
 .final #replay span {
   position: relative;
+  display: inline-block;
+  transition: 0.3s;
 }
 
 .final #replay span::after {
