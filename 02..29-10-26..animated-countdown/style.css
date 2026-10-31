@@ -77,7 +77,10 @@ body {
     transform: translate(-50%, -50%) rotate(0deg);
   }
   60% {
-    transform: translate(-50%, -50%) rotate(20deg)
+    transform: translate(-50%, -50%) rotate(20deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(-120deg);
   }
 }
 .counter h4 {
