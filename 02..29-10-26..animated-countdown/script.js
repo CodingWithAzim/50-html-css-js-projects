@@ -1,3 +1,3 @@
 const nums = document.querySelectorAll(".counter .nums");
 
-const counter = document.que
+const counter = document.querySelector(".counter");
