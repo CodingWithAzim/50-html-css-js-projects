@@ -5,9 +5,8 @@ body {
   height: 100vh;
 }
 
-
 /* ===== counter part ===== */
 
-.counter{
-  
+.counter {
+  position: fixed;
 }
