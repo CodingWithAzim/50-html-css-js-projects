@@ -11,7 +11,9 @@ runAnimation();
 function runAnimation() {
   // console.log(nums);
   
-console.log(nums.length - 1);
+// console.log(nums.length - 1);;
+console.log(nums[3]);
+
 
   nums.forEach((num, index, fullArray) => {
 
