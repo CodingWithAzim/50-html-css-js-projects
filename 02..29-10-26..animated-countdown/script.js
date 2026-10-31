@@ -3,9 +3,11 @@
 const counter = document.querySelector(".counter");
 
 const nums = document.querySelectorAll(".nums span");
-console.log(nums[0]);
+
 
 const finalMessage = document.querySelector(".final");
+console.log(finalMessage);
+
 const replay = document.querySelector("#replay");
 
 /* ===== secound time  ===== */
