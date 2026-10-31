@@ -14,8 +14,12 @@ body {
   transform: translate(-50%, -50%);
   border: 2px solid red;
   text-align: center;
-  opacity: 1;
+
 }
+.counter.hide{
+  animation: hide 0.2s forwards;
+}
+
 
 .counter .nums {
   width: 300px;
