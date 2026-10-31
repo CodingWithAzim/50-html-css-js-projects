@@ -64,6 +64,6 @@ body {
   cursor: pointer;
 }
 
-.final #replay:hover{
-  
+.final #replay:hover span {
+  padding-right: 15px;
 }
