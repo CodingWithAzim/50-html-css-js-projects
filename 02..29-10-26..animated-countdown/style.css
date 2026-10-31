@@ -79,14 +79,15 @@ body {
 #replay span::after {
   content: "\00bb";
   position: absolute;
-  top: 0;
+  top: 50%;
+  transform: translateY(-50%);
   right: -30px;
   opacity: 0;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .final #replay:hover span {
-  padding-right: 20px;
+  padding-right: 25px;
 }
 
 .final #replay:hover span::after {
