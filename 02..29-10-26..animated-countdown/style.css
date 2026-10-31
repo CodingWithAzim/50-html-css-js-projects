@@ -42,10 +42,13 @@ body {
   left: 50%;
   transform: translate(-50%, -50%) rotate(120deg);
   color: rgb(255, 0, 140);
-transform-origin: bottom center;
+  transform-origin: bottom center;
   margin-bottom: 0;
 }
 
+span.in{
+  animation: goIn 5s ;
+}
 .counter h4 {
   text-transform: uppercase;
   font-size: 25px;
