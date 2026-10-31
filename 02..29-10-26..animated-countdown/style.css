@@ -77,11 +77,11 @@ body {
   right: -20px;
 }
 
-.final #replay span:hover {
+#replay span:hover {
   padding-right: 25px;
 }
 
-.final #replay:hover span::after {
+#replay:hover span::after {
   opacity: 1;
   right: 0;
 }
