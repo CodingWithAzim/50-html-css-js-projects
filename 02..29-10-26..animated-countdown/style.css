@@ -70,3 +70,7 @@ body {
 .final #replay span {
   position: relative;
 }
+
+.final #replay:hover span{
+  padding-right: 25px;
+}
