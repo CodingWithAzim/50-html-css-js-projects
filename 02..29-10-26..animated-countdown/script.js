@@ -27,6 +27,9 @@ function runAnimation() {
       ) {
         num.nextElementSibling.classList.add("in");
       }
+      else{
+        counter.classList.a
+      }
     });
   });
 }
