@@ -14,9 +14,17 @@ function runAnimation() {
 
   num.addEventListener('animationend', (e) =>{
 
-   
+   if(
+    e.animationName === "goIn" && index !== Lastindex
+   ){
+
+    
+   }
     
   })
     
+  
+
+
   });
 }
