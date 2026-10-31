@@ -74,7 +74,8 @@ body {
   content: "\00bb";
   position: absolute;
   top: 0;
-  right: -20px;
+  right: -30px;
+  opacity: 0;
 }
 .final #replay:hover span {
   padding-right: 15px;
