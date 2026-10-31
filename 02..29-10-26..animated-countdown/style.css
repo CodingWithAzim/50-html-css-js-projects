@@ -71,9 +71,9 @@ body {
   position: relative;
 }
 
-.final #replay span::after{
-  
+.final #replay span::after {
+  content: "\00bb";
 }
-.final #replay:hover span{
+.final #replay:hover span {
   padding-right: 25px;
 }
