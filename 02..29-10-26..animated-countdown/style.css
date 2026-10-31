@@ -76,12 +76,13 @@ body {
 }
 
 .final #replay:hover span {
-  transition: 5s;
+  transition: 0.2s;
 
   padding-right: 25px;
 }
 
 .final #replay:hover span::after {
+   transition: 5s;
   opacity: 1;
   right: 0;
 }
