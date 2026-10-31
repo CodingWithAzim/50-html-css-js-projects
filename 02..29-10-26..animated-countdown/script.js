@@ -13,7 +13,7 @@ function runAnimation() {
     const Lastindex = nums.length - 1;
 
     num.addEventListener("animationend", (e) => {
-      console.log(num, e.animationName);
+    //   console.log(num, e.animationName);
 
       if (
         e.animationName === "goIn" &&
