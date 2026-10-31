@@ -10,8 +10,8 @@ runAnimation();
 
 function runAnimation() {
     nums.forEach((num, index) =>{
-  console.log(num);
-    // console.log(index);
+//   console.log(num);
+    console.log(index);
     // num= all full span
     // console.log(num.textContent);
     /*  console.log(
