@@ -9,5 +9,5 @@ const replay = document.querySelector("#replay");
 runAnimation();
 
 function runAnimation() {
-    
+    nums.forEach(nums,index)
 }
