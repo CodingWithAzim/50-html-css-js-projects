@@ -66,6 +66,7 @@ body {
 
 .final #replay span {
   position: relative;
+  transition:2s;
 }
 .final #replay span::after {
   content: "\00bb";
