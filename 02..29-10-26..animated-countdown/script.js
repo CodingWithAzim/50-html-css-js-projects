@@ -33,8 +33,8 @@ function runAnimation() {
       ) {
         num.nextElementSibling.classList.add("in");
       } else {
-        finalMessage.classList.add(".show");
-        counter.classList.add(".hide");
+        finalMessage.classList.add("show");
+        counter.classList.add("hide");
       }
     });
   });
