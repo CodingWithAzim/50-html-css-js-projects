@@ -63,13 +63,11 @@ body {
   border-radius: 5px;
   cursor: pointer;
   text-align: center;
-  transition: 5s;
 }
 
 .final #replay span {
   position: relative;
   display: inline-block;
-  transition: 0.3s;
 }
 
 #replay span::after {
