@@ -6,7 +6,8 @@ const finalMessage = document.querySelector(".final");
 const replay = document.querySelector("#replay");
 
 /* ===== secound time  ===== */
+runAnimation();
 
-function runAnimation(params) {
+function runAnimation() {
     
 }
