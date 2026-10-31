@@ -64,30 +64,24 @@ body {
   padding: 8px 20px;
   border-radius: 5px;
   cursor: pointer;
-  /* text-align: center; */
 }
 
 .final #replay span {
   transition: 0.3s;
   position: relative;
   /* border: 1px solid white; */
-    /* text-align: center; */
-  
-
 }
 
 #replay span::after {
   content: "\00bb";
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 0;
   right: -30px;
   opacity: 0;
-  font-size: 40px;
 }
 
 .final #replay:hover span {
-  padding-right: 25px;
+  padding-right: 20px;
 }
 
 .final #replay:hover span::after {
