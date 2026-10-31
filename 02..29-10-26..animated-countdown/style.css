@@ -72,7 +72,7 @@ body {
   content: "\00bb";
   position: absolute;
   top: 0;
-  right: -20px;
+  /* right: -10px; */
 }
 
 .final #replay span:hover {
