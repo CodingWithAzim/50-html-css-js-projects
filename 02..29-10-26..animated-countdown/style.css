@@ -16,10 +16,14 @@ body {
   text-align: center;
   opacity: 1;
 }
-
+/* ===== for hiding counter with animation===== */
 .counter.hide {
   transform: translate(-50%, -50%) scale(0);
-  animation:hide  ;
+  animation: hide 0.2s;
+}
+
+@keyframes identifier {
+  
 }
 
 .counter .nums {
