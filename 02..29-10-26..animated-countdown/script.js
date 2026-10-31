@@ -2,7 +2,7 @@
 
 const counter = document.querySelector(".counter");
 
-console.log(counter.classList);
+
 
 const nums = document.querySelectorAll(".nums span");
 const finalMessage = document.querySelector(".final");
