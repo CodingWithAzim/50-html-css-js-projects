@@ -13,6 +13,7 @@ function runAnimation() {
 
   nums.forEach((num,index,fullArray) => {
 
+console.log();
 
 
   });
