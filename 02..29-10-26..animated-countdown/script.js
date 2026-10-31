@@ -39,7 +39,10 @@ function runAnimation() {
 let resetDom = () => {
   counter.classList.remove("hide");
   finalMessage.classList.remove("show");
-  nums.classList.add("in");
+  nums.forEach((num) => {
+    num.classList.value = "";
+    nums[0].classList.add("in");
+  });
 };
 
 replay.addEventListener("click", resetDom);
