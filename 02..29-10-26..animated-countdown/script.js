@@ -22,7 +22,7 @@ function runAnimation() {
       // console.log(lastIndex);
 
       if (
-        (e.animationName = "goIn" && index !== lastIndex)
+        (e.animationName === "goIn" && index !== lastIndex)
       ) {
         num.classList.remove("in");
         num.classList.add("out");
