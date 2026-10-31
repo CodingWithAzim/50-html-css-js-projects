@@ -16,9 +16,13 @@ body {
 }
 
 .counter .nums {
-  width:200px;
-  height: 40px;
+  width:300px;
+  height: 50px;
 
 border:2px solid blue;
 
+}
+
+.counter .nums span {
+  font-size: 50px;
 }
