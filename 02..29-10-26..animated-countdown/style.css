@@ -7,14 +7,14 @@ body {
 
 /* ===== counter part ===== */
 
-.counter {     
+.counter {
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   border: 2px solid red;
   text-align: center;
-  opacity: 1; 
+  opacity: 1;
 }
 /* ===== for hiding counter with animation===== */
 .counter.hide {
@@ -46,15 +46,16 @@ body {
   transform: translate(-50%, -50%);
   color: rgb(255, 0, 140);
   margin-bottom: 0;
+  transform-origin: bottom center;
 }
 
-.nums span.in{
-  animation: goIn 2s forwards;
+.nums span.in {
+  animation: goIn 5s forwards;
 }
 
-@keyframes goIn {
-  0%{
-    transform: translate(-50%, -50%) rotate(-120deg)
+@keyframes goIn {                 
+  0% {
+    transform: translate(-50%, -50%) rotate(120deg);
   }
 }
 .counter h4 {
