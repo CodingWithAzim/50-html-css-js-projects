@@ -17,7 +17,8 @@ body {
   opacity: 1;
 }
 
-.counter.hide{
+.counter.hide {
+  transform: translate(-50%, -50%) scale(0);
   
 }
 
