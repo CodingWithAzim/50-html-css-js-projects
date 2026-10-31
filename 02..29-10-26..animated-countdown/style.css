@@ -17,6 +17,10 @@ body {
   opacity: 1;
 }
 
+.counter.hide{
+  
+}
+
 .counter .nums {
   width: 300px;
   height: 50px;
@@ -33,11 +37,6 @@ body {
   color: rgb(255, 0, 140);
   margin-bottom: 0;
 }
-
-.nums span.in{
-  
-}
-
 
 .counter h4 {
   text-transform: uppercase;
