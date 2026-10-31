@@ -64,12 +64,16 @@ body {
   padding: 8px 20px;
   border-radius: 5px;
   cursor: pointer;
+  /* text-align: center; */
 }
 
 .final #replay span {
   transition: 0.3s;
   position: relative;
   /* border: 1px solid white; */
+    /* text-align: center; */
+  
+
 }
 
 #replay span::after {
@@ -78,6 +82,7 @@ body {
   top: 0;
   right: -30px;
   opacity: 0;
+  font-size: 30px;
 }
 
 .final #replay:hover span {
