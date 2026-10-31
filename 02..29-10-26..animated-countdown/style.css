@@ -64,10 +64,17 @@ body {
   cursor: pointer;
 }
 
-
-
-
-.final #replay span{
+.final #replay span {
   position: relative;
 }
 
+.final #replay span::after {
+  content: "\00bb";
+  position: absolute;
+  top: 0;
+  right: -20px;
+}
+
+.final #replay span:hover {
+  padding-right: 25px;
+}
